@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 1.5rem;
+    font-family:'Nunito' sans-serif;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    background:blanchedalmond;
+    
+  }
+  
+  section{
+    min-height:100vh;
+    padding:10rem 9% 2rem;
+  }
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding: 10px;
+    background: teal;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:100;
+}
+.logo{
+    font-size:2.5rem;
+    color:rgb(17, 3, 94);
+    font-weight:600;
+    cursor:default;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-img {
+    width: 35vw;
+}
+span{
+    color:aqua;
+}
+.home-content h3{
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+.home content h1 {
+    font-size:5.6rem;
+    font-weight:700;
+    line-height:1.3;
+}
+.social-media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border: 2rem solid #fff;
+    border-radius: 50%;
+    font-size: 2rem;
+    color:aqua;
+    margin: 3rem 1.5rem 3rem 0;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+.about-img img {
+    width: 35vw;
+}
+.heading{
+    text-align: center;
+    font-size: 4.5rem;
+}
+.about-content h2{
+    text-align:left;
+    line-height: 1,2;
+}
+.about-content h3{
+    font-size: 1.6rem;
+}
+.projects h2{
+    margin-bottom: 5rem;
+}
+.projects-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.projects-container .projects-box{
+    flex: 1 1 30rem;
+    background: beige;
+    padding: 2rem 1rem 1rem;
+    border-radius: 1rem;
+    text-align: center;
+    border: 1rem solid rgb(18, 18, 19);
+}
+.projects-container .projects-box hover{
+    border-color: aqua;
+}
+.projects-box i{
+    font-size:3rem;
+    color:rgb(27, 27, 29);
+}
+.projects-box h3{
+    font-size: 1rem;
+}
+.contact h2{
+    margin-bottom: 3rem;
+}
+.contact form{
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.contact form .input-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+.contact form .input-box input,
+.contact form textarea{
+    width: 100%;
+    padding: 0.5rem;
+    font-size:1rem;
+    color:aqua;
+    background:rgb(27, 27, 29);
+    border-radius: 8rem;
+    margin: 7rem 0;
+}
+.contact form .input-box input{
+    width: 49%;
+}
+.contact from textarea{
+    resize: none;
+}
+.contact form .btn{
+    margin-top: 2rem;
+    cursor:pointer;
+}
+footer{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: teal;
+padding:1 rem;
+}
+
+
+  
